@@ -1,0 +1,64 @@
+body{ 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  border-width:0.5px ;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 5%;
+  width: fit-content;
+  padding:40px;
+
+}
+input{
+  padding: 20px;
+  width: 350px;
+  font-size: larger;
+}
+h1{
+  font-weight: normal;
+}
+.desc{
+  font-size: larger;
+}
+.info{
+  margin:40px 0 0 0;
+  font-size: smaller;
+  color: rgb(107, 105, 105);
+}
+.left{
+  text-align: end;
+}
+.center{
+  text-align: center;
+}
+#create-account{
+  background-color: rgb(251, 251, 251);
+  color:#1A65C7;
+  padding:10px 10px
+}
+#create-account:hover{
+  background-color: rgb(212, 232, 250);
+  color:#144e99
+}
+.custombtn{
+  background-color: #1A65C7;
+  color: white;
+  border-radius: 7%;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.custombtn:hover{
+  background-color: #0f4995;
+}
+.marginleft{
+  margin-left:200px ;
+}
+a{
+  text-decoration: none;
+}
